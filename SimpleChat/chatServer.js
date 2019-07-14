@@ -32,7 +32,7 @@ server.listen(webSocketServerPort, function(){
 });
 
 //create the server
-wsServer = new WebSocketServer({
+var wsServer = new WebSocketServer({
     httpServer: server
 });
 
