@@ -1,4 +1,5 @@
 $(function (){
+    "use strict";
     //If running mozilla use built-in Websocket
     window.WebSocket = window.WebSocket || window.MozWebSocket;
 
